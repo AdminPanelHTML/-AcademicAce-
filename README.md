@@ -1,4 +1,4 @@
-# 🌍-AcademicAce-🌍
+# 🌍|- AcademicAce | -🌍
 Welcome, to Academic Ace. Powered by **CHATGBT**
 # How we work
 We use ChatGBT to code this website, all websites checked by me.
