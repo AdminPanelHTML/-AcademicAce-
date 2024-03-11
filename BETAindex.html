@@ -7,50 +7,6 @@
     body {
       background: linear-gradient(to bottom, #5764FF, #9966FF);
       font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 50px;
-    }
-    
-    h1 {
-      color: white;
-    }
-    
-    .game-button {
-      margin: 10px;
-      padding: 10px 20px;
-      background-color: white;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    }
-  </style>
-</head>
-<body>
-  <h1>Unblocked Games</h1>
-  
-  <button class="game-button" onclick="window.location.href = 'https://example.com/game1';">Category 1</button>
-  <button class="game-button" onclick="window.location.href = 'https://example.com/game2';">Category 2</button>
-  
-  <!-- Add more buttons for different categories and games -->
-  
-</body>
-</html>
-In this updated code, I have replaced the embeds with buttons. Each button has an onclick attribute that redirects the user to the corresponding game URL when clicked. You can add more buttons for different categories and games by duplicating the button element and modifying the URLs accordingly.
-Please replace the placeholder URLs (https://example.com/game1 and https://example.com/game2) with the actual URLs of the games you want to link to. Remember to update the button text to reflect the category or game name as needed.
-person more_vertcan u make the gradient fit the screen
-Contact Photo more_vertCertainly! To make the gradient background fit the screen, you can use the 100vh unit to set the height of the body element. Here's the updated code:
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Unblocked Games</title>
-  <style>
-    /* Add the blue and purple gradient background */
-    body {
-      background: linear-gradient(to bottom, #5764FF, #9966FF);
-      font-family: Arial, sans-serif;
       margin: 0;
       display: flex;
       flex-direction: column;
@@ -75,6 +31,9 @@ Contact Photo more_vertCertainly! To make the gradient background fit the screen
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     }
   </style>
+  <script>
+    window.location.href = 'game.html'; // Redirect to the desired HTML file
+  </script>
 </head>
 <body>
   <h1>Unblocked Games</h1>
@@ -84,5 +43,16 @@ Contact Photo more_vertCertainly! To make the gradient background fit the screen
   
   <!-- Add more buttons for different categories and games -->
   
+</body>
+</html>
+game.html:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game Page</title>
+  <!-- Add your game-related styles and scripts here -->
+</head>
+<body>
+  <!-- Add your game content here -->
 </body>
 </html>
