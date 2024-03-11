@@ -32,27 +32,18 @@
     }
   </style>
   <script>
-    window.location.href = 'game.html'; // Redirect to the desired HTML file
+    function redirectToGame(game) {
+      window.location.href = game; // Redirect to the specified game HTML file
+    }
   </script>
 </head>
 <body>
   <h1>Unblocked Games</h1>
   
-  <button class="game-button" onclick="window.location.href = 'https://example.com/game1';">Category 1</button>
-  <button class="game-button" onclick="window.location.href = 'https://example.com/game2';">Category 2</button>
+  <button class="game-button" onclick="redirectToGame('game1.html');">Category 1</button>
+  <button class="game-button" onclick="redirectToGame('game2.html');">Category 2</button>
   
-  <!-- Add more buttons for different categories and games -->
+  <!-- Add more buttons for different categories -->
   
-</body>
-</html>
-game.html:
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Game Page</title>
-  <!-- Add your game-related styles and scripts here -->
-</head>
-<body>
-  <!-- Add your game content here -->
 </body>
 </html>
