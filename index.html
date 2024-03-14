@@ -33,7 +33,7 @@
       text-decoration: none;
       border-radius: 30px;
       color: #fff;
-      background-color: #3498db;
+      background-color: #3498db; /* Default blue color */
       transition: background-color 0.3s ease, transform 0.2s ease;
       cursor: pointer;
       margin: 10px;
@@ -41,23 +41,29 @@
     }
 
     .rounded-button:hover {
-      background-color: #2980b9;
+      background-color: #2980b9; /* Darker shade of blue */
       transform: scale(1.05);
     }
 
     .rounded-button i {
       margin-right: 8px;
     }
+
+    /* Make the Home button purple */
+    .home-button {
+      background-color: #8a2be2; /* Purple color */
+    }
   </style>
 </head>
 <body>
   <div class="button-container">
-    <a href="Games/CoreBall/nav.apusapps.com/br/game/coreball/index.html" class="rounded-button"><i class="fas fa-gamepad"></i>CoreBall</a>
+    <!-- Apply 'home-button' class to make the Home button purple -->
+    <a href="extra/home.html" class="rounded-button home-button"><i class="fas fa-home"></i> Home</a>
+    <a href="BetaTesting/CoreBall/nav.apusapps.com/br/game/coreball/index.html" class="rounded-button"><i class="fas fa-gamepad"></i> CoreBall</a>
     <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game1</a>
     <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game2</a>
     <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game3</a>
     <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game4</a>
-    <a href="home.html" class="rounded-button"><i class="fas fa-home"></i>Home</a>
     <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game5</a>
     <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game6</a>
     <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game7</a>
