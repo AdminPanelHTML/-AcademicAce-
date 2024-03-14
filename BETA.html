@@ -17,7 +17,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh; /* Changed height to min-height for better centering */
     }
 
     .button-container {
@@ -57,18 +57,12 @@
 </head>
 <body>
   <div class="button-container">
-    <!-- Apply 'home-button' class to make the Home button purple -->
+    <a href="#" class="rounded-button"><i class="fas fa-external-link-alt"></i> Proxy</a>
+    <br> <!-- Line break to separate the buttons -->
+    <!-- Apply 'home-button' class to make the Home button purple and center it -->
     <a href="extra/home.html" class="rounded-button home-button"><i class="fas fa-home"></i> Home</a>
-    <a href="BetaTesting/CoreBall/nav.apusapps.com/br/game/coreball/index.html" class="rounded-button"><i class="fas fa-gamepad"></i> CoreBall</a>
-    <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game1</a>
-    <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game2</a>
-    <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game3</a>
-    <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game4</a>
-    <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game5</a>
-    <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game6</a>
-    <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game7</a>
-    <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game8</a>
-    <a href="#" class="rounded-button"><i class="fas fa-gamepad"></i> Game9</a>
+    <br> <!-- Line break to separate the buttons -->
+    <a href="#" class="rounded-button"><i class="fab fa-github"></i> Github</a>
   </div>
 
   <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
